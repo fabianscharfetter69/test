@@ -19,9 +19,17 @@ zweite Zeile
 `#Include <stdio.h>`
 
 ```
-Codeblock
+public boolean equals(Object obj){
+        if(obj instanceof Person p){
+            if(this.name.equals(p.name) && this.alter == p.alter){
+                return true;
+            }
+        }
+        return false;
+    }
 ```
 
 ----
 [ORF](www.orf.at)
+
 ![Casino](caSIIIIno.png)
